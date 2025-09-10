@@ -14,6 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   padding: 8px;
   display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -56,12 +57,4 @@ ul {
   display: flex;
   gap: 16px;
   align-items: center;
-}
-
-.right {
-  margin-left: auto;
-}
-
-.left {
-  margin-right: auto;
 }
